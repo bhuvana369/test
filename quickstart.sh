@@ -1,3 +1,4 @@
+#!/bin/sh
 # Copyright 2020 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,8 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# [START cloudbuild_quickstart_build_dockerfile]
-FROM alpine
-COPY quickstart.sh /
-CMD ["/quickstart.sh"]
-# [END cloudbuild_quickstart_build_dockerfile]
+# [START cloudbuild_quickstart_build_sh]
+echo "Hello, world! The time is $(date)."
+# [END cloudbuild_quickstart_build_sh]
