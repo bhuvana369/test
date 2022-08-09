@@ -15,4 +15,5 @@
 
 # [START cloudbuild_quickstart_build_sh]
 echo "Hello, world! The time is $(date)."
+echo "Good Morning"
 # [END cloudbuild_quickstart_build_sh]
